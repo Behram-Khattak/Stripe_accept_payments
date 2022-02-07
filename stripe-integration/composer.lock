@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "8a32ba34f79fff9262e9dee9111bc741",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5839,6 +5839,63 @@
             "time": "2020-07-09T08:09:16+00:00"
         },
         {
+            "name": "laravel/breeze",
+            "version": "v1.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/breeze.git",
+                "reference": "671c552ae193b3e712039a17a2d75f436a0a790a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/breeze/zipball/671c552ae193b3e712039a17a2d75f436a0a790a",
+                "reference": "671c552ae193b3e712039a17a2d75f436a0a790a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/filesystem": "^8.42|^9.0",
+                "illuminate/support": "^8.42|^9.0",
+                "illuminate/validation": "^8.42|^9.0",
+                "php": "^7.3|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Breeze\\BreezeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Breeze\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Minimal Laravel authentication scaffolding with Blade and Tailwind.",
+            "keywords": [
+                "auth",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/breeze/issues",
+                "source": "https://github.com/laravel/breeze"
+            },
+            "time": "2022-01-25T15:13:03+00:00"
+        },
+        {
             "name": "laravel/sail",
             "version": "v1.13.1",
             "source": {
@@ -7839,6 +7896,53 @@
             "time": "2020-09-28T06:39:44+00:00"
         },
         {
+            "name": "theanik/laravel-more-command",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/theanik/laravel-more-command.git",
+                "reference": "aab76744edd18f3fdff240bf8bdd08daf9640985"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/theanik/laravel-more-command/zipball/aab76744edd18f3fdff240bf8bdd08daf9640985",
+                "reference": "aab76744edd18f3fdff240bf8bdd08daf9640985",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Theanik\\LaravelMoreCommand\\LaravelMoreCommandProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Theanik\\LaravelMoreCommand\\": "src/"
+                },
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anwar Hossain Anik",
+                    "email": "anwar.anik33@gmail.com"
+                }
+            ],
+            "description": "Create a Repository and Service class and trait using Artisan CLI",
+            "support": {
+                "issues": "https://github.com/theanik/laravel-more-command/issues",
+                "source": "https://github.com/theanik/laravel-more-command/tree/v1.2.0"
+            },
+            "time": "2021-06-15T16:46:38+00:00"
+        },
+        {
             "name": "theseer/tokenizer",
             "version": "1.2.1",
             "source": {
@@ -7898,5 +8002,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
